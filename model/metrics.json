@@ -1,0 +1,54 @@
+{
+  "dataset_name": "Wisconsin Diagnostic Breast Cancer (UCI)",
+  "dataset_url": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic",
+  "source": "scikit-learn load_breast_cancer; original dataset from UCI",
+  "instances": 569,
+  "feature_count": 30,
+  "train_instances": 455,
+  "test_instances": 114,
+  "random_state": 42,
+  "test_size": 0.2,
+  "positive_class": "Malignant (target=1)",
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.9649122807017544,
+      "AUC": 0.996031746031746,
+      "Precision": 0.975,
+      "Recall": 0.9285714285714286,
+      "F1": 0.9512195121951219,
+      "MCC": 0.9245181185940877
+    },
+    "Decision Tree": {
+      "Accuracy": 0.9298245614035088,
+      "AUC": 0.9246031746031745,
+      "Precision": 0.9047619047619048,
+      "Recall": 0.9047619047619048,
+      "F1": 0.9047619047619048,
+      "MCC": 0.8492063492063492
+    },
+    "K-Nearest Neighbors": {
+      "Accuracy": 0.956140350877193,
+      "AUC": 0.982473544973545,
+      "Precision": 0.9743589743589743,
+      "Recall": 0.9047619047619048,
+      "F1": 0.9382716049382716,
+      "MCC": 0.9058238738943076
+    },
+    "Gaussian Naive Bayes": {
+      "Accuracy": 0.9210526315789473,
+      "AUC": 0.9890873015873015,
+      "Precision": 0.9230769230769231,
+      "Recall": 0.8571428571428571,
+      "F1": 0.8888888888888888,
+      "MCC": 0.8291617197562593
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.9736842105263158,
+      "AUC": 0.9947089947089947,
+      "Precision": 1.0,
+      "Recall": 0.9285714285714286,
+      "F1": 0.9629629629629629,
+      "MCC": 0.9441549509633318
+    }
+  }
+}
